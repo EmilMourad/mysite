@@ -6,7 +6,8 @@ Ethernet Packet Parser
 
 Make sure you have a C++ compiler installed. You can install `g++` on Ubuntu using the following command:
 
-```bash
+```
+bash
 sudo apt-get update
 sudo apt-get install g++
 ```
