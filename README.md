@@ -1,8 +1,6 @@
-markdown
-Copy code
 # Project Name
 
-Brief description of your project.
+Ethernet Packet Parser
 
 ## Prerequisites
 
@@ -11,7 +9,8 @@ Make sure you have a C++ compiler installed. You can install `g++` on Ubuntu usi
 ```bash
 sudo apt-get update
 sudo apt-get install g++
-How to Compile and Run
+
+## How to Compile and Run
 Clone the repository:
 
 bash
