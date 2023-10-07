@@ -23,7 +23,7 @@ cd <repository_directory>
 ```bash
 g++ -o tst main.cpp EthernetPacket.cpp RawEthernetPacket.cpp PrintPacketVisitor.cpp EcpriEthernetPacket.cpp
 ```
-This command compiles the C++ source files into an executable named tst.
+This command compiles the C++ source files into an executable named `tst`.
 
 
 ### On Windows:
