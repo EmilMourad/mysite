@@ -6,8 +6,7 @@ Ethernet Packet Parser
 
 Make sure you have a C++ compiler installed. You can install `g++` on Ubuntu using the following command:
 
-```
-bash
+```bash
 sudo apt-get update
 sudo apt-get install g++
 ```
@@ -23,8 +22,9 @@ cd <repository_directory>
 
 ```bash
 g++ -o tst main.cpp EthernetPacket.cpp RawEthernetPacket.cpp PrintPacketVisitor.cpp EcpriEthernetPacket.cpp
-This command compiles the C++ source files into an executable named tst.
 ```
+This command compiles the C++ source files into an executable named tst.
+
 
 ### On Windows:
 
@@ -34,7 +34,6 @@ g++ -o tst.exe main.cpp EthernetPacket.cpp RawEthernetPacket.cpp PrintPacketVisi
 ### On Linux:
 
 ```bash
-Copy code
 g++ -o tst main.cpp EthernetPacket.cpp RawEthernetPacket.cpp PrintPacketVisitor.cpp EcpriEthernetPacket.cpp
 ```
 ## Run the program:
@@ -47,6 +46,5 @@ g++ -o tst main.cpp EthernetPacket.cpp RawEthernetPacket.cpp PrintPacketVisitor.
 ### On Linux:
 
 ```bash
-Copy code
 ./tst <input_file> <output_file>
 ```
